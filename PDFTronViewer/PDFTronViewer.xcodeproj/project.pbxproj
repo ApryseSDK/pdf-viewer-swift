@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B42472217A685600357C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B42471217A685600357C1B /* AppDelegate.swift */; };
+		D3B42474217A685600357C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B42473217A685600357C1B /* ViewController.swift */; };
+		D3B42477217A685600357C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B42475217A685600357C1B /* Main.storyboard */; };
+		D3B42479217A685800357C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B42478217A685800357C1B /* Assets.xcassets */; };
+		D3B4247C217A685800357C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B4247A217A685800357C1B /* LaunchScreen.storyboard */; };
+		D3B42484217A69E400357C1B /* Sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D3B42483217A69E400357C1B /* Sample.pdf */; };
+		F81E41FF9E0E672B7A8DEE2C /* Pods_PDFTronViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885FD16CA9E91864CF7DF366 /* Pods_PDFTronViewer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		718FE2C1ED27404C680DDD41 /* Pods-PDFTronViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFTronViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFTronViewer/Pods-PDFTronViewer.release.xcconfig"; sourceTree = "<group>"; };
+		885FD16CA9E91864CF7DF366 /* Pods_PDFTronViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFTronViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C06CE69536FF697917BC228 /* Pods-PDFTronViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFTronViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFTronViewer/Pods-PDFTronViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B4246E217A685600357C1B /* PDFTronViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFTronViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B42471217A685600357C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3B42473217A685600357C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3B42476217A685600357C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3B42478217A685800357C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3B4247B217A685800357C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3B4247D217A685800357C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B42483217A69E400357C1B /* Sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Sample.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B4246B217A685600357C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81E41FF9E0E672B7A8DEE2C /* Pods_PDFTronViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC9CA9749B8838ABFDD1416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885FD16CA9E91864CF7DF366 /* Pods_PDFTronViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C810608DD9D58174BC9D8D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C06CE69536FF697917BC228 /* Pods-PDFTronViewer.debug.xcconfig */,
+				718FE2C1ED27404C680DDD41 /* Pods-PDFTronViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3B42465217A685600357C1B = {
+			isa = PBXGroup;
+			children = (
+				D3B42470217A685600357C1B /* PDFTronViewer */,
+				D3B4246F217A685600357C1B /* Products */,
+				2C810608DD9D58174BC9D8D3 /* Pods */,
+				0EC9CA9749B8838ABFDD1416 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B4246F217A685600357C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B4246E217A685600357C1B /* PDFTronViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B42470217A685600357C1B /* PDFTronViewer */ = {
+			isa = PBXGroup;
+			children = (
+				D3B42471217A685600357C1B /* AppDelegate.swift */,
+				D3B42473217A685600357C1B /* ViewController.swift */,
+				D3B42475217A685600357C1B /* Main.storyboard */,
+				D3B42478217A685800357C1B /* Assets.xcassets */,
+				D3B4247A217A685800357C1B /* LaunchScreen.storyboard */,
+				D3B4247D217A685800357C1B /* Info.plist */,
+				D3B42483217A69E400357C1B /* Sample.pdf */,
+			);
+			path = PDFTronViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B4246D217A685600357C1B /* PDFTronViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B42480217A685800357C1B /* Build configuration list for PBXNativeTarget "PDFTronViewer" */;
+			buildPhases = (
+				68DBCB32A156FDF554DC62BB /* [CP] Check Pods Manifest.lock */,
+				D3B4246A217A685600357C1B /* Sources */,
+				D3B4246B217A685600357C1B /* Frameworks */,
+				D3B4246C217A685600357C1B /* Resources */,
+				21D8F0974B864652834FC835 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFTronViewer;
+			productName = PDFTronViewer;
+			productReference = D3B4246E217A685600357C1B /* PDFTronViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B42466217A685600357C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "PDFTron Systems Inc.";
+				TargetAttributes = {
+					D3B4246D217A685600357C1B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D3B42469217A685600357C1B /* Build configuration list for PBXProject "PDFTronViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B42465217A685600357C1B;
+			productRefGroup = D3B4246F217A685600357C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B4246D217A685600357C1B /* PDFTronViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B4246C217A685600357C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B42484217A69E400357C1B /* Sample.pdf in Resources */,
+				D3B4247C217A685800357C1B /* LaunchScreen.storyboard in Resources */,
+				D3B42479217A685800357C1B /* Assets.xcassets in Resources */,
+				D3B42477217A685600357C1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21D8F0974B864652834FC835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PDFTronViewer/Pods-PDFTronViewer-frameworks.sh",
+				"${PODS_ROOT}/PDFNet/PDFNet.framework",
+				"${PODS_ROOT}/PDFNet/Tools.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFNet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tools.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFTronViewer/Pods-PDFTronViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DBCB32A156FDF554DC62BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFTronViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B4246A217A685600357C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B42474217A685600357C1B /* ViewController.swift in Sources */,
+				D3B42472217A685600357C1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3B42475217A685600357C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B42476217A685600357C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B4247A217A685800357C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B4247B217A685800357C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B4247E217A685800357C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3B4247F217A685800357C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B42481217A685800357C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C06CE69536FF697917BC228 /* Pods-PDFTronViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFTronViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdftron.PDFTronViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B42482217A685800357C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718FE2C1ED27404C680DDD41 /* Pods-PDFTronViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFTronViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdftron.PDFTronViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B42469217A685600357C1B /* Build configuration list for PBXProject "PDFTronViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B4247E217A685800357C1B /* Debug */,
+				D3B4247F217A685800357C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B42480217A685800357C1B /* Build configuration list for PBXNativeTarget "PDFTronViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B42481217A685800357C1B /* Debug */,
+				D3B42482217A685800357C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B42466217A685600357C1B /* Project object */;
+}
